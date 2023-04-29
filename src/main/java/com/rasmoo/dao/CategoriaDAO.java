@@ -27,6 +27,7 @@ public class CategoriaDAO {
 
     public void update(final Categoria categoria) {
         this.entityManager.merge(categoria);
+
     }
 
     public void delete(final Categoria categoria) {
